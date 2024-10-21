@@ -1,0 +1,50 @@
+:root{
+--color-brand: #FFD700;
+--color-brand-hover: #EDC800;
+--color-0: #fff;
+--color-1: #000;
+--gray-1: #F9F9F9;
+--gray-2: #BDBDBD;
+--gray-3: #8A8A8A;
+--gray-4: #1A1A1A;
+--gray-5: #131313;
+--gray-6: #0E0E0E;
+}
+
+.color-brand{
+color: var(--color-brand);
+}
+
+.color-brand-hover{
+color: var(--color-brand-hover);
+}
+
+.color-0{
+color:var(--color-0);
+}
+
+.color-1{
+color: var(--color-1);
+}
+
+.gray-1{
+color: var(--gray-1);
+}
+
+.gray-2{
+color: var(--gray-2);
+}
+
+.gray-3{
+color: var(--gray-3);
+}
+
+.gray-4{
+color: var(--gray-4);
+}
+
+.gray-5{
+color: var(--gray-5);
+}
+
+

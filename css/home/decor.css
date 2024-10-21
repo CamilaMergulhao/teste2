@@ -1,0 +1,51 @@
+.decor-wrapper{
+background-color: var(--gray-8);
+padding-top: 24px;
+padding-bottom: 24px;
+overflow: hidden;
+width: 100%;
+}
+
+.decor-box{
+display: flex;
+align-items: center;
+transition: transform 0.3s ease; 
+}
+
+.y span, .w span{
+font: var(--font-decor);
+color: var(--gray-5);
+white-space: nowrap;
+text-transform: uppercase;
+margin: 0;
+padding: 0;
+}
+
+.y span{
+font-style: italic;
+}
+
+.w{
+margin: 4px 0px;
+}
+
+.circle span{
+display: block;
+width: 14px;
+height: 14px;
+border-radius: 50%; 
+border: 2px solid  var(--gray-5);
+margin: 0px 24px;
+}
+
+
+@media(max-width: 768px){
+.y span, .w span{
+font-size: 3rem;
+}
+
+.circle span{
+width: 13px;
+height: 13px;
+}
+}

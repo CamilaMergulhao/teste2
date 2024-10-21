@@ -1,0 +1,58 @@
+/*Global*/
+@import "global/global.css";
+@import "global/header.css";
+@import "global/footer.css";
+@import "global/btn-ux.css";
+@import "global/btn-mobile.css";
+
+/*Utils*/
+@import "utils/components.css";
+@import "utils/typography.css";
+@import "utils/colors.css";
+
+/*home*/
+@import "home/intro-home.css";
+@import "home/projects.css";
+@import "home/services.css";
+
+
+/* about */
+@import "about/about-me.css";
+
+/* links */
+@import 'links/links.css';
+
+/* projetos-brand */
+@import "projects-brand/projects-brand-infos.css";
+@import "projects-brand/projects-brand-job.css";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

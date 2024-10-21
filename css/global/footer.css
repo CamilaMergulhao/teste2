@@ -1,0 +1,170 @@
+.contact-bg{
+background-color: var(--color-brand);
+padding-top: 96px;
+padding-bottom: 0px;
+}
+
+.contact-ctn{
+margin-bottom: 96px;
+}
+
+.contact-infos-box{
+max-width: 600px;
+}
+
+.contact-title{
+margin-bottom: 32px;
+}
+
+.contact-title h2{
+font: var(--font-48);
+color: var(--color-1);
+line-height: 1;
+font-weight: 800;
+}
+
+
+.contact-details a{
+font: var(--font-32);
+color: var(--color-1);
+line-height: 1;
+display: block;
+margin-bottom: 16px;
+max-width: max-content;
+transition: .2s;
+}
+
+.contact-details a:last-child{
+margin-bottom: 0px;
+}
+
+.contact-details a:hover{
+color: var(--color-0);
+}
+
+
+
+/* copy */
+
+.copy-bg{
+background-color: var(--color-1);
+padding: 24px 0px;
+width: 100%;
+}
+
+.copy{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.copy-mergu{
+font: var(--font-14);
+color: var(--gray-3);
+}
+
+.social-copy{
+display: flex;
+align-items: center;
+gap: 16px;
+}
+
+.social-copy li a{
+font: var(--font-14);
+color: var(--gray-3);
+transition: .2s;
+}
+
+.social-copy li a:hover{
+color: var(--color-0);
+}
+
+
+
+@media(max-width: 1024px){
+.contact-bg{
+padding-top: 80px;
+}
+
+.contact-ctn{
+margin-bottom: 80px;
+}
+
+.contact-title{
+margin-bottom: 24px;
+}
+
+.contact-title h2{
+font: var(--font-40);
+color: var(--color-1);
+line-height: 1;
+font-weight: 800;
+}
+}
+
+
+@media(max-width: 768px){
+.contact-bg{
+padding-top: 64px;
+}
+
+.contact-ctn{
+margin-bottom: 64px;
+}
+
+.contact-title{
+margin-bottom: 16px;
+}
+
+.contact-title h2{
+font: var(--font-32);
+color: var(--color-1);
+line-height: 1;
+font-weight: 800;
+}
+
+.contact-details a{
+font: var(--font-28);
+line-height: 1;
+}
+
+.copy-bg{
+padding: 16px 0px;
+}
+}
+
+@media(max-width: 480px){
+.contact-bg{
+padding-top: 64px;
+}
+
+.contact-title h2{
+font: var(--font-28);
+color: var(--color-1);
+line-height: 1;
+font-weight: 800;
+}
+
+.contact-details a{
+font: var(--font-24);
+line-height: 1;
+}
+
+
+.social-copy{
+margin-bottom: 8px;
+
+}
+
+.form{
+max-width: none;
+}
+
+.copy{
+display: flex;
+flex-direction: column-reverse;
+justify-content: space-between;
+}
+
+
+}

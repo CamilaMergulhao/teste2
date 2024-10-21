@@ -1,0 +1,92 @@
+.about-me-bg{
+background-color: var(--color-1);
+padding: 96px 0px;
+}
+
+.about-desc{
+display: flex;
+justify-content: space-between;
+}
+
+.about-me-title h2{
+font: var(--font-40);
+font-weight: 400;
+line-height: 1;
+color: var(--color-0);
+}
+
+.about-text{
+max-width: 560px;
+}
+
+.about-text p{
+font: var(--font-18);
+color: var(--color-0);
+margin-bottom: 24px;
+}
+
+.about-text p:last-child {
+margin-bottom: 0;
+}
+
+
+@media (max-width: 1024px) {
+.about-text{
+max-width: 500px;
+} 
+}
+
+@media (max-width: 950px) {
+.about-me-bg{
+padding: 80px 0px;
+}
+
+.about-me-title{
+margin-bottom: 32px;
+}
+.about-desc{
+display: flex;
+flex-direction: column;
+}
+
+.about-text{
+max-width: 650px;
+} 
+}
+
+@media(max-width: 768px){
+.about-me-bg{
+padding: 64px 0px;
+}
+
+.about-me-title{
+margin-bottom: 24px;
+}
+
+.about-me-title h2{
+font: var(--font-32);
+line-height: 1;
+}
+
+.about-text{
+max-width: none;
+} 
+
+.about-text p{
+font: var(--font-16);
+margin-bottom: 16px;
+}
+}
+
+@media(max-width: 480px){
+.about-me-bg{
+padding: 64px 0px;
+}
+
+.about-me-title h2{
+font: var(--font-28);
+line-height: 1;
+}
+}
+
+

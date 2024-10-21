@@ -1,0 +1,165 @@
+.projects-brand-intro-infos-bg{
+background-color: var(--color-1);
+padding-top: 128px;
+padding-bottom: 128px;
+}
+
+.projects-brand-intro-infos{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 64px;
+margin: auto;
+}
+
+.projects-brand-infos-ctn-1 h1{
+font: var(--font-48);
+color: var(--color-0);
+font-weight: 600;
+line-height: 1;
+margin-bottom: 40px;
+}
+
+.projects-brand-infos-box h2{
+font: var(--font-16);
+color: var(--color-0);
+font-weight: 600;
+line-height: 1;
+letter-spacing: 1.5px;
+margin-bottom: 8px;
+}
+
+.projects-brand-infos-box p{
+font: var(--font-18);
+color: var(--gray-2);
+}
+
+.projects-brand-infos-box{
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-box:last-of-type {
+margin-bottom: 40px;
+}
+
+.projects-brand-infos-ctn-2 p{
+font: var(--font-18);
+color: var(--color-0);
+}
+
+.link-site-client{
+font: var(--font-20);
+font-weight: 600;
+color: var(--color-1);
+background-color: var(--color-brand);
+padding: 16px 45px;
+display: inline-block;
+cursor: pointer;
+letter-spacing: 1px;
+transition: 0.2s;
+border-radius: 5px;
+}
+
+.link-site-client:hover{
+background-color: var(--color-brand-hover);
+}
+
+
+@media(max-width: 1024px){
+.projects-brand-intro-infos-bg{
+padding-top: 96px;
+padding-bottom: 96px;
+}
+
+.projects-brand-infos-ctn-1 h1{
+font: var(--font-40);
+font-weight: 600;
+line-height: 1;
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-ctn-1{
+margin-bottom: 40px;
+}
+
+.projects-brand-intro-infos{
+grid-template-columns: 1fr;
+grid-column-gap: 0px;
+}
+
+.projects-brand-infos-box{
+margin-bottom: 24px;
+}
+
+.projects-brand-infos-box:last-of-type {
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-ctn-2{
+max-width: 650px;
+}
+}
+
+@media(max-width: 768px){
+.projects-brand-intro-infos-bg{
+background-color: var(--color-1);
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+
+.projects-brand-infos-ctn-1 h1{
+font: var(--font-32);
+font-weight: 600;
+line-height: 1;
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-box:last-of-type {
+margin-bottom: 32px;
+}
+
+.projects-brand-infos-box p,
+.projects-brand-infos-ctn-2 p{
+font: var(--font-16);
+}
+
+.projects-brand-infos-ctn-1{
+margin-bottom: 32px;
+}
+
+.link-site-client{
+font: var(--font-18);
+font-weight: 600;
+padding: 16px 40px;
+}
+}
+
+
+@media(max-width: 480px){
+
+.projects-brand-intro-infos-bg{
+background-color: var(--color-1);
+padding-top: 64px;
+padding-bottom: 64px;
+}
+
+.projects-brand-infos-ctn-1 h1{
+font: var(--font-28);
+font-weight: 600;
+line-height: 1;
+margin-bottom: 24px;
+}
+
+.projects-brand-infos-box:last-of-type {
+margin-bottom: 24px;
+}
+
+.link-site-client{
+font: var(--font-16);
+font-weight: 600;
+padding: 16px 32px;
+}
+ 
+
+
+}

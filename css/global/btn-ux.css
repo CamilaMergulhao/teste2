@@ -1,0 +1,32 @@
+/* config todos */
+.btn-whatsapp{
+position: fixed;
+display: flex;
+align-items: center;
+justify-content: center;
+bottom: 24px;
+transition: background-color 0.2s ease;  
+cursor: pointer;
+z-index: 500;
+right: 24px;
+width: 48px;
+height: 48px;
+border-radius: 50%;
+background-color: var(--gray-4);
+}
+
+/* tamanho svg´s */
+.btn-whatsapp svg{
+width: 24px;
+height: auto;
+}
+
+.btn-whatsapp svg path{
+fill: var(--color-0);
+}
+
+.btn-whatsapp:hover{
+background-color: var(--color-1);
+}
+
+

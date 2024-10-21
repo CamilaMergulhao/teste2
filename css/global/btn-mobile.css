@@ -1,0 +1,231 @@
+#header-menu-mobile-ctn{
+display: none;
+}
+
+
+#btn-mobile {
+background-color: transparent; 
+height: 40px;
+width: 40px;
+justify-content: center;
+align-items: center;
+display: flex;
+cursor: pointer;
+border: none;
+}
+
+.header-menu{
+display: none;
+}
+
+.social-menu{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
+.social-menu li a{
+/* width: 48px;
+height: 48px; */
+/* border-radius: 50%; */
+/* background-color: var(--gray-5); */
+display: flex;
+align-content: center;
+justify-content: center;
+}
+
+.social-menu li a svg{
+width: 24px;
+height: auto;
+}
+
+.hamburger-box {
+position: relative;
+display: flex; 
+justify-content: center; 
+align-items: center;
+width: 40px;
+height: 24px;
+background-color: transparent;
+}
+    
+.hamburger-inner {
+position: absolute;   
+width:30px;
+height: 2px;
+background-color: var(--color-1);
+}
+
+.hamburger-inner::before {
+position: absolute;
+content: '';
+display: block;
+width: 30px;
+height: 2px;
+background-color: var(--color-1);
+bottom: 8px;
+}
+    
+.hamburger-inner::after {
+position: absolute;
+content: '';
+display: block;
+width: 30px;
+height: 2px;
+background-color: var(--color-1);
+top: 8px;
+}
+    
+#hamburger-inner-white,
+#hamburger-inner-white::before,
+#hamburger-inner-white::after{
+background-color: var(--color-0);
+}
+        
+#btn-mobile-close{
+background-color: transparent;
+position: absolute;
+z-index: 1000;
+right: 12px;
+top: 12px;
+}
+
+.icon-close {
+position: relative;
+width: 24px;
+height: 24px;
+display: block;
+cursor: pointer;
+}
+
+.icon-close::before,
+.icon-close::after {
+content: '';
+position: absolute;
+width: 100%;
+height: 2px;
+background-color: var(--color-brand);
+top: 50%;
+left: 0;
+transform-origin: center;
+}
+
+
+.icon-close::before {
+transform: rotate(45deg);
+}
+
+.icon-close::after {
+transform: rotate(-45deg);
+}
+
+
+#overlay {
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-color: rgba(0, 0, 0, 0.5); 
+z-index: 99; 
+display: none;
+transition: background-color 0.4s ease-in-out;
+}
+
+
+.header-menu {
+display: none;
+}
+  
+#btn-mobile {
+display: flex;
+}
+
+#header-menu-mobile-ctn.open ~ #overlay {
+display: block;
+}
+  
+#header-menu-mobile-ctn {
+position: fixed;
+top: 0;
+right: -100%;
+height: 100vh;
+bottom: 0;
+z-index: 1000;
+display: block;
+width: 400px;
+background-color: var(--color-1);
+transition: right 0.4s ease-in-out ;
+}
+
+#header-menu-mobile-ctn.open{
+right: 0; /* Quando o menu está aberto, aparece na tela */
+}
+
+#header-menu-mobile {
+position: relative;
+display: flex;
+flex-direction: column;
+height: 100%;
+width: 100%;
+padding: 96px 24px 24px;
+}
+
+.mobile-menu{
+margin-bottom: 48px;
+}
+
+.mobile-menu li {
+margin-bottom: 12px;
+display: block;
+}
+  
+.mobile-menu li a {
+font: var(--font-32);
+font-weight: 400;
+color: var(--color-0);
+}
+  
+@media(max-width: 768px){
+.hamburger-inner, 
+.hamburger-inner::before,
+.hamburger-inner::after {
+width:28px;
+}
+
+#header-menu-mobile-ctn {
+width: 300px;
+}
+
+.mobile-menu{
+margin-bottom: 32px;
+}
+
+.mobile-menu li a {
+font: var(--font-28);
+}
+
+.mobile-menu li {
+margin-bottom: 8px;
+}
+
+.social-menu li a svg{
+width: 20px;
+height: auto;
+}
+}
+
+@media(max-width: 480px){
+#header-menu-mobile-ctn {
+width: 250px;
+}
+
+.hamburger-inner, 
+.hamburger-inner::before,
+.hamburger-inner::after {
+width:25px;
+}
+.mobile-menu li a {
+font: var(--font-24);
+}
+}

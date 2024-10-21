@@ -1,0 +1,98 @@
+.projects-brand-bg{
+background-color: var(--color-0);
+padding-top: 96px;
+padding-bottom: 128px;
+}
+
+.projects-brand-job{
+display: flex;
+flex-direction: column;
+margin: auto;
+}
+
+.projects-brand-job-col-1,
+.projects-brand-job-col-2{
+margin-bottom: 24px;
+}
+
+.projects-brand-job-col-2{ 
+display: flex;
+gap: 24px;
+}
+
+
+.projects-brand-job-col-1 picture img,
+.projects-brand-job-col-2 picture img{
+width: 100%;
+height: auto;
+}
+
+
+.btn-return-projects{
+display: flex;
+justify-content: center;
+margin-top: 32px;
+}
+
+.btn-return-projects a{
+font: var(--font-20);
+font-weight: 600;
+color: var(--color-brand);
+background-color: var(--color-1);
+padding: 24px 45px;
+display: inline-block;
+cursor: pointer;
+letter-spacing: 1px;
+transition: 0.2s;
+border-radius: 5px;
+}
+
+.btn-return-projects a:hover{
+color: var(--color-brand);
+background-color: var(--gray-5);
+}
+
+@media(max-width: 768px){
+.projects-brand-bg{
+padding-top: 80px;
+padding-bottom: 80px;
+}
+
+.projects-brand-job-col-2{
+flex-direction: column;
+gap: 16px;
+}
+
+.projects-brand-job-col-1,
+.projects-brand-job-col-2{
+margin-bottom: 16px;
+}
+
+
+.btn-return-projects{
+margin-top: 24px;
+}
+
+.btn-return-projects a{
+font: var(--font-18);
+font-weight: 600;
+padding: 24px 32px;
+}
+}
+
+@media(max-width: 480px){
+.projects-brand-bg{
+padding-top: 64px;
+padding-bottom: 64px;
+}
+
+.btn-return-projects{
+margin-top: 16px;
+}
+
+.btn-return-projects a{
+font: var(--font-16);
+font-weight: 600;
+padding: 24px 24px;
+}
+} 

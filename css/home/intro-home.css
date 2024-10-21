@@ -1,0 +1,50 @@
+.intro-home-bg{
+background-color: var(--color-brand);
+height: 70vh;
+display: flex;
+align-content: center;
+padding: 128px 0px;
+}
+
+.intro-home{
+display: flex;
+align-items: center;
+margin-left: auto;
+width: 100%;
+}
+
+.intro-home h1{
+font: var(--font-40);
+font-weight: 500;
+color: var(--color-1);
+}
+
+
+   
+@media(max-width: 900px){
+.br-intro{
+display: none;
+}
+}
+
+@media(max-width: 768px){
+.intro-home-bg{
+padding: 96px 0px;
+}
+.intro-home h1{
+font: var(--font-32);
+font-weight: 500;
+}
+}
+
+
+@media(max-width: 480px){
+.intro-home h1{
+font: var(--font-28);
+font-weight: 500;
+}
+
+.intro-home-bg{
+padding: 32px 0px;
+}
+}
